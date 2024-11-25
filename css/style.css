@@ -78,23 +78,34 @@ header {
     justify-content: center;
 }
 
-.jumbotron-img {
-    height: 400px;
-}
-
 .jumbotron-content {
     width: 50%;
     height: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     /*test*/
     border: solid black 1px;
     background-color: palevioletred;
 }
 
 .jumbotron-content h1 {
+    display: flex;
+    align-items: center;
     color: white;
     font-size: 50px;
+    height: 120px;
+}
+
+.jumbotron-content h2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-bottom: 30px;
 }
 
 
