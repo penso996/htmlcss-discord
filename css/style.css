@@ -204,8 +204,9 @@ header {
 }
 
 .lsection-content h2 {
-    width: 100;
+    width: 100%;
     padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 30px;
     text-align: center;
     color: black;
