@@ -134,7 +134,7 @@ header {
     height: 500px;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: lightgray;
+    background-color: #f6f6f6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -176,7 +176,7 @@ header {
     height: 800px;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: lightgray;
+    background-color: #f6f6f6;
     display: flex;
     align-items: center;
     justify-content: center;
