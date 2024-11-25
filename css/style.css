@@ -81,12 +81,21 @@ header {
     justify-content: center;
 }
 
+.jumbotron-img {
+    height: 400px;
+}
+
 .jumbotron-content {
     width: 50%;
     height: 100%;
     /*test*/
     border: solid black 1px;
     background-color: palevioletred;
+}
+
+.jumbotron-content h1 {
+    color: white;
+    font-size: 50px;
 }
 
 
