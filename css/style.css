@@ -173,7 +173,7 @@ header {
 /*last section*/
 .lsection {
     width: 100%;
-    height: 800px;
+    height: 900px;
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: #f6f6f6;
@@ -195,12 +195,23 @@ header {
     color: black;
 }
 
-.lsection-content h2 {
+.lsection-content h3 {
     width: 100%;
     padding-top: 30px;
     font-size: 15px;
     text-align: center;
     color: black;
+}
+
+.lsection-content h2 {
+    width: 100;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .lsection-content img {
@@ -212,17 +223,17 @@ header {
 /*main footer*/
 .footer-bgr {
     width: 100%;
-    height: 500px;
-    padding-top: 0.5%;
+    height: 450px;
+    padding-top: 5%;
     padding-bottom: 2%;
-    background-color: rgb(60, 60, 60);
+    background-color: #23272a;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .footer-content {
-    width: 60%;
+    width: 70%;
     height: 100%;
     justify-content: center;
     display: flex;
@@ -233,52 +244,50 @@ header {
     width: 36%;
     height: 100%;
     justify-content: center;
-    /*test*/
-    background-color: pink;
-    border: solid black 1px;
+}
+
+.main-column h1 {
+    color: #7788cd;
+    padding-bottom: 30px;
+}
+
+.main-column img {
+    width: 20px;
+    padding-right: 10px;
+}
+
+.main-column p {
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 
 .column2 {
     width: 16%;
     height: 100%;
     justify-content: center;
-    /*test*/
-    background-color: lightblue;
-    border: solid black 1px;
 }
 
-.column3 {
-    width: 16%;
-    height: 100%;
-    justify-content: center;
-    /*test*/
-    background-color: lightblue;
-    border: solid black 1px;
+.column2 h3 {
+    font-size: 18px;
+    color: #7788cd;
 }
 
-.column4 {
-    width: 16%;
-    height: 100%;
-    justify-content: center;
-    /*test*/
-    background-color: lightblue;
-    border: solid black 1px;
+.column2 p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
 }
 
-.column5 {
-    width: 16%;
-    height: 100%;
-    justify-content: center;
-    /*test*/
-    background-color: lightblue;
-    border: solid black 1px;
-}
 
 /*footer info*/
 .footer-info-bgr {
     width: 100%;
     height: 80px;
-    background-color: rgb(60, 60, 60);
+    background-color: #23272a;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -286,7 +295,7 @@ header {
 }
 
 .footer-info-content {
-    width: 60%;
+    width: 70%;
     height: 70%;
     display: flex;
     align-items: center;
