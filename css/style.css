@@ -18,7 +18,7 @@ header {
 
 /*header functions*/
 .header-functions {
-    width: 60%;
+    width: 70%;
     height: 50%;
     display: flex;
     align-items: center;
@@ -93,8 +93,8 @@ header {
     display: flex;
     align-items: center;
     color: white;
-    font-size: 50px;
-    height: 120px;
+    font-size: 60px;
+    height: 150px;
 }
 
 .jumbotron-content h2 {
@@ -102,7 +102,7 @@ header {
     text-align: center;
     align-items: center;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: lighter;
     padding-bottom: 30px;
 }
@@ -185,9 +185,26 @@ header {
 .lsection-content {
     width: 60%;
     height: 100%;
-    /*test*/
-    border: solid black 1px;
-    background-color: green;
+}
+
+.lsection-content h1 {
+    width: 100%;
+    padding-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.lsection-content h2 {
+    width: 100%;
+    padding-top: 30px;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.lsection-content img {
+    width: 100%;
 }
 
 
