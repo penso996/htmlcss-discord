@@ -1,0 +1,262 @@
+/*general rules*/
+* {
+    border: 0px;
+    margin: 0px;
+    font-family: Whitney, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+
+/*header*/
+header {
+    height: 80px;
+    background-color: #3160e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*header functions*/
+.header-functions {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*logo*/
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+/*link*/
+.header-nav {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*login*/
+.login {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.login a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+/*jumbotron*/
+.jumbotron {
+    width: 100%;
+    height: 400px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron-content {
+    width: 50%;
+    height: 100%;
+    /*test*/
+    border: solid black 1px;
+    background-color: palevioletred;
+}
+
+
+/*main sections and content*/
+.section1-3 {
+    width: 100%;
+    height: 500px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 {
+    width: 100%;
+    height: 500px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.section-content1 {
+    width: 40%;
+    height: 100%;
+    /*test*/
+    border: solid black 1px;
+    background-color: lightskyblue;
+}
+
+.section-content2 {
+    width: 20%;
+    height: 100%;
+    /*test*/
+    border: solid black 1px;
+    background-color: palevioletred;
+}
+
+
+/*last section*/
+.lsection {
+    width: 100%;
+    height: 800px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lsection-content {
+    width: 60%;
+    height: 100%;
+    /*test*/
+    border: solid black 1px;
+    background-color: green;
+}
+
+
+/*footer*/
+/*main footer*/
+.footer-bgr {
+    width: 100%;
+    height: 500px;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content {
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-column {
+    width: 36%;
+    height: 100%;
+    justify-content: center;
+    /*test*/
+    background-color: pink;
+    border: solid black 1px;
+}
+
+.column2 {
+    width: 16%;
+    height: 100%;
+    justify-content: center;
+    /*test*/
+    background-color: lightblue;
+    border: solid black 1px;
+}
+
+.column3 {
+    width: 16%;
+    height: 100%;
+    justify-content: center;
+    /*test*/
+    background-color: lightblue;
+    border: solid black 1px;
+}
+
+.column4 {
+    width: 16%;
+    height: 100%;
+    justify-content: center;
+    /*test*/
+    background-color: lightblue;
+    border: solid black 1px;
+}
+
+.column5 {
+    width: 16%;
+    height: 100%;
+    justify-content: center;
+    /*test*/
+    background-color: lightblue;
+    border: solid black 1px;
+}
+
+/*footer info*/
+.footer-info-bgr {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-top: solid white 2px;
+}
+
+.footer-info-content {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.bottom-logo {
+    height: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    text-align: center;
+    /*test*/
+    border: solid black 1px;
+    background-color: pink;
+}
+
+.bottom-button {
+    height: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    text-align: center;
+    /*test*/
+    border: solid black 1px;
+    background-color: pink;
+}
