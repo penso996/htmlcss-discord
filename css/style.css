@@ -315,12 +315,12 @@ header {
     display: flex;
     align-content: center;
     justify-content: center;
-    border-top: solid white 2px;
 }
 
 .footer-info-content {
     width: 70%;
     height: 70%;
+    border-top: solid white 2px;
     display: flex;
     align-items: center;
     flex-direction: row;
