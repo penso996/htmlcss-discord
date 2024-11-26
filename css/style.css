@@ -300,7 +300,10 @@ header {
     color: #7788cd;
 }
 
-.column2 p {
+.column2 a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
     margin-top: 10px;
     font-size: 16px;
     color: white;
