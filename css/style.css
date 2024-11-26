@@ -15,7 +15,6 @@ header {
     justify-content: center;
 }
 
-
 /*header functions*/
 .header-functions {
     width: 70%;
@@ -25,7 +24,6 @@ header {
     justify-content: space-between;
 }
 
-
 /*logo*/
 .logo {
     width: 20%;
@@ -34,7 +32,6 @@ header {
     align-items: center;
     justify-content: left;
 }
-
 
 /*link*/
 .header-nav {
@@ -49,7 +46,6 @@ header {
     text-decoration: none;
     color: white;
 }
-
 
 /*login*/
 .login {
@@ -107,11 +103,25 @@ header {
     padding-bottom: 30px;
 }
 
-.jumbotron-content a {
+.jumbotron-content span {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.download {
     padding: 15px;
     text-decoration: none;
     color: black;
     background-color: white;
+    border-radius: 30px;
+}
+
+.browser {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #22282a;
     border-radius: 30px;
 }
 
@@ -169,6 +179,7 @@ header {
     font-size: 15px;
     color: black;
 }
+
 
 /*last section*/
 .lsection {
