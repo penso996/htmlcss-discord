@@ -155,7 +155,7 @@ header {
     width: 50%;
     height: 100%;
     display: flex;
-    align-content: center;
+    align-content: flex-start;
 }
 
 .section-content2 {
